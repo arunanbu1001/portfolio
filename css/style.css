@@ -1,0 +1,282 @@
+.headr{
+    background-color: #494b50;
+   
+
+}
+.headr > h1{
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+
+}
+button{
+    background-color: #494b50;
+    
+}
+p{
+    color: rgb(252, 252, 252);
+}
+.banner,body{
+    background-color: #349ceb;
+}
+.flex-banner{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.bgimage{
+    background-image: url("../images/arun.jpg");
+    filter: blur(6px);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a,li{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    color: #fff;
+}
+.about-me{
+    margin-top: 300px;
+    margin-bottom: 25px;
+}
+.about-me h2{
+    text-align: center;
+}
+.bg-text{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.about-me img{
+    width: 100%;
+    height: 600px;
+    clear: both;
+    float: left;
+}
+
+/* codeskill */
+
+.codemargin{
+    margin: 10px;
+}
+.codeskill{
+    margin-top: 25px;
+    background-color: #494b50;
+    border-radius: 10px;
+}
+.codeskill h2{
+    text-align: center;
+    
+}
+
+.resume_list ul{
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.resume_list ul li{
+    margin: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+    /* padding-left: 20px; */
+    /* padding-bottom: 45px; */
+} 
+.list_inner{
+    width: 100%;
+    height: auto;
+    /* clear: both; */
+    /* display: flex; */
+}
+.time{
+    display: flex;
+    width: 50%;
+    /* padding-right: 10px; */
+}
+.time h3{
+  display: block;
+    
+}
+   .wid{
+    margin-top: 30px;
+   }
+   .wid h2{
+    text-align: center;
+   }
+
+ .what_did{
+    background-color: #494b50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: auto;
+ }  
+
+.time span{
+    display: inline-block;
+  
+    background-color: rgba(0,0,0,.05);
+    border-radius: 50px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.project a{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #494b50;
+    
+    color: #fff;
+    
+}
+.done{
+    margin-top: 30px;
+}
+.done h2{
+    text-align: center;
+}
+.foot{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #494b50;
+}
+.foot h6{
+    display: inline;
+}
+
+.portfolio-box{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-content{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.portfolio-content img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+   
+    object-fit: fill;
+    
+   
+}
+.card-body button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    width: 70px;
+    border: 0;
+    padding: 5px;
+
+}
+.portfolio-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 53, 72, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease; 
+}
+.portfolio-first-text{
+    transform: translateY(-20px);
+    transition: all 0.5s ease; 
+}
+.portfolio-content:hover .portfolio-first-text{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.portfolio-first-text h4{ 
+    font-size: 22px;
+    display: flex;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.portfolio-first-text p{
+    display: flex; 
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.portfolio-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.portfolio-link a{
+    text-decoration: none;
+    color: rgb(50, 74, 255);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    line-height: 35px;
+    align-items: center;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+.portfolio-content:hover .portfolio-text{
+    opacity: 1;
+}
+.portfolio-content:hover img{
+    transform: scale(1.1);
+}
+.portfolio-link a:hover {
+    background-color: rgb(78, 84, 250);
+    color: #fff;
+}
+
